@@ -19,7 +19,7 @@
 
 	function doesReplayExist() {
 		// check if repository has `replay.mp4` file
-		replaySrc = `/${model.id}/resolve/main/replay.mp4`;
+		replaySrc = `https://huggingface.co/${model.id}/resolve/main/replay.mp4`;
 		const xhr = new XMLHttpRequest();
 		xhr.open("HEAD", replaySrc, false);
 		xhr.send();
